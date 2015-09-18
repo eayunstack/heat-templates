@@ -1,0 +1,5 @@
+parameters:
+  image: TestVM
+  key_name: apporc
+  flavor: m1.micro
+  network: apporc_net
