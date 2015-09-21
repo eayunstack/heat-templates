@@ -1,0 +1,7 @@
+parameters:
+  image: fedora-21-x86_64-raw
+  key_name: apporc
+  flavor: m1.small
+  network: apporc_net
+  subnet_id: 36fa76dd-d351-4cc0-8908-50193a2d431c
+  external_network_id: 5639fb94-7502-4a4a-8114-94ca65705dd8
