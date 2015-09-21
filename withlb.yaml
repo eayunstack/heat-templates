@@ -42,7 +42,9 @@ resources:
                   systemctl enable httpd.service
                   systemctl start httpd.service
                   echo "$HOSTNAME" >  /usr/share/httpd/noindex/index.html
-              params: {}
+                  echo "$stack_id" >> /usr/share/httpd/noindex/index.html
+              params:
+                  $stack_id: {get_param: "OS::stack_id"}
   scaleup_policy:
     type: OS::Heat::ScalingPolicy
     properties:
