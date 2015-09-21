@@ -1,0 +1,10 @@
+parameters:
+  image: fedora-21-x86_64-raw
+  key: apporc
+  flavor: m1.small
+  database_flavor: m1.small
+  subnet_id: 36fa76dd-d351-4cc0-8908-50193a2d431c
+  database_name: wordpress
+  database_user: wordpress
+  network: apporc_net
+  external_network_id: 5639fb94-7502-4a4a-8114-94ca65705dd8
