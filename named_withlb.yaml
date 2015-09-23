@@ -26,7 +26,7 @@ resources:
       min_size: 2
       max_size: 5
       resource:
-        type: lb_server.yaml
+        type: named_server.yaml
         properties:
           flavor: {get_param: flavor}
           image: {get_param: image}
